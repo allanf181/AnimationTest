@@ -833,7 +833,6 @@ namespace AnimationTest
                 Thread.Sleep(Frame);
                 Console.Clear();
             }
-            Console.ReadKey();
         }
     }
     public class ConsoleSpiner
