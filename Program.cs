@@ -15,7 +15,7 @@ namespace AnimationTest
             ConsoleSpiner spin = new ConsoleSpiner();
             Console.Write("Carregando....");
             int SpinTime = 0;
-            while (SpinTime < 5000)
+            while (SpinTime < 1000)
             {
                 spin.Turn();
                 SpinTime = SpinTime + 1;
